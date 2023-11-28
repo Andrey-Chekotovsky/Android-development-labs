@@ -40,7 +40,6 @@ class fillBookInfoFragment : Fragment() {
         var genreField: EditText = view.findViewById(R.id.genre_field)
         var yearField: EditText = view.findViewById(R.id.year_field)
         var submitButton: Button = view.findViewById(R.id.submit_button)
-        var addImageButton: Button = view.findViewById(R.id.image_add_button)
         bookViewModel = ViewModelProvider(this).get(BookViewModel::class.java)
 
         var navController = NavHostFragment.findNavController(this)

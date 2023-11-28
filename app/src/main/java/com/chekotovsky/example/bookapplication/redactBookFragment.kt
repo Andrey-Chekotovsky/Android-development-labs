@@ -54,18 +54,18 @@ class redactBookFragment : Fragment() {
                 Toast.makeText(this.requireContext(), "Not all fields filled", Toast.LENGTH_LONG).show()
             } else {
                 bookViewModel.updateBook(formUpdatedBook(args.currentBook.id!!, nameField, authorField, genreField, yearField))
-                navController.navigate(R.id.action_fillBookInfoFragment_to_bookListFragment)
+                navController.navigate(R.id.action_redactBookFragment_to_bookListFragment)
             }
         }
 
         var backButton: Button = view.findViewById(R.id.back_button)
         backButton.setOnClickListener{
-            navController.navigate(R.id.action_fillBookInfoFragment_to_bookListFragment)
+            navController.navigate(R.id.action_redactBookFragment_to_bookListFragment)
         }
         var deleteButton: Button = view.findViewById(R.id.delete_button)
         deleteButton.setOnClickListener{
             bookViewModel.deleteBook(args.currentBook)
-            navController.navigate(R.id.action_fillBookInfoFragment_to_bookListFragment)
+            navController.navigate(R.id.action_redactBookFragment_to_bookListFragment)
         }
 
         return view
