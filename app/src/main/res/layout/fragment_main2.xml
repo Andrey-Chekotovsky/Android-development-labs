@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:background="@color/black"
+>
+
+<Button
+    android:id="@+id/book_list_button"
+    android:layout_width="248dp"
+    android:layout_height="58dp"
+
+    android:text="Books"
+    android:textSize="40dp"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    android:background="@drawable/green_button" />
+<Button
+    android:id="@+id/about_button"
+    android:layout_width="148dp"
+    android:layout_height="70dp"
+    android:layout_marginTop="172dp"
+    android:textSize="40dp"
+    android:text="About us"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintHorizontal_bias="0.832"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    app:layout_constraintVertical_bias="0.928"
+    android:background="@drawable/green_button"/>
+
+
+
+<Button
+    android:id="@+id/quit_button"
+    android:layout_width="148dp"
+    android:layout_height="70dp"
+    android:text="Quit"
+    android:textSize="40dp"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintHorizontal_bias="0.167"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    app:layout_constraintVertical_bias="0.928"
+    android:background="@drawable/red_button"/>
+
+</TableLayout>

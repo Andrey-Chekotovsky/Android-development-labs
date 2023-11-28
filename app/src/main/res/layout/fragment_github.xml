@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activities.GithubActivity"
+    android:orientation="vertical"
+    android:background="@color/black">
+
+
+    <Button
+        android:id="@+id/back_button"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="#A0A0A0"
+        android:text="Github"
+        android:textColor="@color/white"
+        android:drawableLeft="@drawable/arrow_back"
+        android:textSize="40dp"/>
+
+    <TextView
+        android:id="@+id/our_details_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200dp"
+        android:text="https://github.com/Andrey-Chekotovsky"
+        android:textSize="30dp"
+        android:textColor="@color/white"
+        android:textAlignment="center" />
+
+</LinearLayout>

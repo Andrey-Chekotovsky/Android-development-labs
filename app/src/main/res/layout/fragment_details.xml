@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/black">
+
+    <Button
+        android:id="@+id/back_button"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="#A0A0A0"
+        android:text="Out details"
+        android:textColor="@color/white"
+        android:drawableLeft="@drawable/arrow_back"
+        android:textSize="40dp"/>
+
+    <Button
+        android:id="@+id/about_us_button"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginTop="10pt"
+        android:background="#33FF33"
+        android:drawableLeft="@drawable/question_mark"
+        android:text="About us"
+        android:textSize="30dp"/>
+    <Button
+        android:id="@+id/git_button"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="#33FF33"
+        android:text="Our github"
+        android:drawableLeft="@drawable/github"
+        android:layout_marginTop="10pt"
+        android:textSize="30dp"/>
+    <Button
+        android:id="@+id/monetezation_button"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="#33FF33"
+        android:text="Give me money"
+        android:drawableLeft="@drawable/monetization_on"
+        android:layout_marginTop="10pt"
+        android:textSize="30dp"/>
+
+    <Button
+        android:id="@+id/support_button"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginTop="10pt"
+        android:background="#33FF33"
+        android:drawableLeft="@drawable/contact_support"
+        android:text="Support(don't call here)"
+        android:textSize="30dp" />
+
+</LinearLayout>
